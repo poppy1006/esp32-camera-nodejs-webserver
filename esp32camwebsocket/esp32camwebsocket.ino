@@ -29,8 +29,8 @@
 
 // Replace with your network credentials
 const char* hostname = "ESP32CAM";
-const char* ssid = "poppy";
-const char* password = "12345678";
+const char* ssid = "GNXS-2.4G-1820B4";
+const char* password = "B43D081820B4";
 
 WebSocketsClient webSocket;
 
@@ -118,7 +118,7 @@ void setup(){
   
   // server address, port and URL
   // webSocket.begin("192.168.29.121", 3000, "/jpgstream_server");
-    webSocket.begin("192.168.29.80", 3000, "/jpgstream_server");
+    webSocket.begin("192.168.1.65", 3000, "/jpgstream_server");
   webSocket.onEvent(webSocketEvent);
   webSocket.setReconnectInterval(5000);
   webSocket.enableHeartbeat(15000, 3000, 2); 
