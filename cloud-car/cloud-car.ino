@@ -24,8 +24,8 @@ bool right = 0;
 int Speed;
 
 char auth[] = "CVUNuUNQ3dXY97qZL9ZxVI-Fsq5q2zsU"; //Enter your Blynk application auth token
-char ssid[] = "GNXS-2.4G-1820B4"; //Enter your WIFI name
-char pass[] = "B43D081820B4"; //Enter your WIFI passowrd
+char ssid[] = "poppy"; //Enter your WIFI name
+char pass[] = "12345678"; //Enter your WIFI passowrd
 
 
 void setup() {
