@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js --ignore './storage/' --ignore './public/' --ignore './commands/' --ignore './var/' ",
+    "startdev": "nodemon app.js --ignore './storage/' --ignore './public/' --ignore './commands/' --ignore './var/' ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
